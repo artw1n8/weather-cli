@@ -3,11 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "description": "cli for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "build": "gulp index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
