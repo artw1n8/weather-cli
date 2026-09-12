@@ -1,6 +1,6 @@
 {
-  "name": "weather-cli",
-  "private": true,
+  "name": "weather-cli-by-art",
+  "private": false,
   "version": "1.0.0",
   "description": "cli for getting weather",
   "main": "weather.js",
